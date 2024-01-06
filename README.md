@@ -45,7 +45,7 @@ Spring Boot + Mybatis
 
 **🐹팀원 조미혜 (JMH)** : 프로젝트 메인, 프로젝트 Home, 프로젝트 게시판, 검색기능
 
-<div align=left><h2>💡 Naming Rule 🔥</h2></div>
+<div align=left><h2>💡 Naming Rule</h2></div>
 
 **ser** : service <br>
 **ctr** : controller <br>
