@@ -12,10 +12,7 @@ Spring Boot + Mybatis
 <div align=left><h3>📕 Environment</h3></div>
 
 <div>
-  <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
-  <img src="https://img.shields.io/badge/intellijidea-000000?style=for-the-badge&logo=intellijidea&logoColor=white">
-  <img src="https://img.shields.io/badge/kakaotalk-FFCD00?style=for-the-badge&logo=kakaotalk&logoColor=white">
+  <img src="">
 </div>
 
 <div align=left><h3>📗 Development</h3></div>
@@ -34,19 +31,19 @@ Spring Boot + Mybatis
 
 <div align=left><h2>🔥 프로젝트 팀원 소개 및 주요 역할 분담 🔥</h2></div>
 
-**👑팀장 황인정 (HIJ)** : 
+**👑팀장 황인정 (HIJ)** : 프로젝트 생성, 프로젝트 관리, 관리자 페이지, 통합검색
 
-**🐹팀원 이광현 (LKH)** : 
+**🐹팀원 이진희 (LJH)** : 프로젝트용 캘린더, 알림, 프로젝트 게시판
 
-**🐹팀원 강준우 (KJO)** : 
+**🐹팀원 이광현 (LKH)** : 프로젝트 작업 문서 등록/수정/삭제/리스트/조회, 휴지통, 팀원별 진척률
 
-**🐹팀원 문경훈 (MKH)** : 
+**🐹팀원 강준우 (KJO)** : 채팅, 관리자 페이지 
 
-**🐹팀원 차예지 (CYJ)** : 
+**🐹팀원 문경훈 (MKH)** : 회원가입
 
-**🐹팀원 이진희 (LJH)** : 
+**🐹팀원 차예지 (CYJ)** : 전체 공지사항/이벤트/Q&A 게시판, 검색 기능, ToDoList 등록/조회
 
-**🐹팀원 조미혜 (JMH)** : 
+**🐹팀원 조미혜 (JMH)** : 프로젝트 메인, 프로젝트 Home, 프로젝트 게시판, 검색 기능
 
 <div align=left><h2>💡 Naming Rule 🔥</h2></div>
 
@@ -62,26 +59,59 @@ Spring Boot + Mybatis
 <div align=left><h2>💻 화면 구성</h2></div>
 
 <div align=center>
-    <img width="30%" height="200px" src="https://github.com/qlc9808/projectGo/assets/137845430/14b0ea2e-73f1-4760-b0dc-5a938d8c9ea5"/>
-    <img width="30%" height="200px" src="https://github.com/qlc9808/projectGo/assets/137845430/d63fe316-679c-4d01-ad08-d61406aa61d0"/>
+    <img width="30%" height="200px" src=""/>
+    <img width="30%" height="200px" src=""/>
     <div width="30%" height="200px"></div>
 </div>
 <hr>
 
+<div align=left><h2>💡 페이지 상세 </h2></div>
+
+### 공지사항 게시판
+- PMS 시스템의 모든 회원들을 대상으로 하는 전체 공지 게시물을 등록/조회
+- 관리자 계정만 게시글 등록
+  
+### 이벤트 게시판 (댓글)
+- PMS 시스템의 모든 회원들을 대상으로 하는 이벤트 관련 게시물을 등록/조회
+- 회원 계정만 게시글 등록
+
+### 자유 게시판 (댓글)
+- PMS 시스템의 모든 회원들을 대상으로 하여 자유롭게 게시물을 등록/조회
+- 회원 계정만 게시글 등록
+
+### Q&A 게시판 (답글)
+- PMS 시스템의 모든 회원들을 대상으로 하여 자유롭게 게시물을 등록/조회
+- 회원 계정만 게시글 등록  
+
 <div align=left><h2>💡 주요 기능 상세</h2></div>
 
-### 게임콘텐츠 등록 
-- 운영자가 게임콘텐트를 등록
-- '공개'로 자동 등록
-- Bean Validation을 통한 입력에 대한 유효성 검증
+### 게시글 추천 
+- Ajax 활용
+- Controller에 추천하려는 게시글 번호(pk) 전달
+- 추천 Table에 게시글 번호가 존재하는지 확인 - 중복 방지 위해
+- 존재하면, alert으로 '추천 중복입니다' 알림 표시
+- 존재하지 않으면,
+  - 추천 Table에 Insert
+  - 게시판 Table에 추천 수 Update
+  - 게시판 Table의 추천 수 Selete 해서 사용자가 추천 버튼 누르면, 추천 수가 alert으로 보임 
+
+### 수정/삭제
+- Session에 담겨 있는 로그인 정보 불러옴
+- 게시글 번호(pk)로 작성자 ID를 갖고 와서 작성자와 로그인한 접속자 비교
+- 작성자와 접속자가 일치하면 수정/삭제 버튼 노출됨
+- 게시글 삭제 후 게시판 첫 페이지로 이동 
+
+### 댓글
+- 해당 글 클릭하면 하단에 리스트처럼 댓글이 달리는 구조
+- 최신 순이 상단에 뜸 
+
+### 답글
+- 게시판 첫 화면에 리스트 형태로 보이지만 부모글 밑에 들여쓰기로 달리는 구조
+- 
 
 <div align=left><h2>❗ 프로젝트 회고</h2></div>
 
 **🐹팀원 차예지** 
-
-
-팀원들과 지속적인 소통을 통해 화면 구상에 대한 보안점을 발견하고, 이를 토대로 프로젝트의 구상이 점차 강화되었습니다. 
-이러한 경험을 통해 팀원 간의 소통이 프로젝트의 핵심적인 부분임을 깨닫게 되었습니다.
 
 
 <div align=left><h2>❗ 프로젝트 회고</h2></div>
