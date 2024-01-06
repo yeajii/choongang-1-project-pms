@@ -48,13 +48,13 @@ Spring Boot + Mybatis
 <div align=left><h2>💡 Naming Rule 🔥</h2></div>
 
 **ser** : service <br>
-**ctr** : controller
-**cfg** : configuration
-**dmi** : domain
-**rep** : respository
-**dao** : dao
-**aop** : aop
-**han** : handler
+**ctr** : controller <br>
+**cfg** : configuration <br>
+**dmi** : domain <br>
+**rep** : respository <br>
+**dao** : dao <br>
+**aop** : aop <br>
+**han** : handler <br>
 
 <div align=left><h2>💻 화면 구성</h2></div>
 
