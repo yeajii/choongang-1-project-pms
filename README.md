@@ -5,7 +5,7 @@ Spring Boot + Mybatis
 학원생들의 프로젝트 개념 및 관리 측면에서 더 나은 이해와 경험을 얻을 수 있는 사이트입니다.
 
 <div align=left><h2>개발 기간</h2></div>
-2023.10.10 - 2023.12.29
+2023.10.10 - 2023.11.30
 
 <div align=left><h2>📚 STACK</h2></div>
 
