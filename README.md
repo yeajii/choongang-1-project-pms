@@ -9,10 +9,6 @@ Spring Boot + Mybatis
 
 <div align=left><h2>📚 STACK</h2></div>
 
-<div>
-  <img src="">
-</div>
-
 <div align=left><h3>📗 Development</h3></div>
 <div>
   <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"><img src="https://img.shields.io/badge/11-515151?style=for-the-badge">
@@ -113,8 +109,3 @@ Spring Boot + Mybatis
 **🐹팀원 차예지** <br> 
 발생하는 오류를 구글링을 통해 공통적으로 나오는 부분을 중심으로 해결했다. 또한 게시판의 완성도를 높이기 위해 추가할 기능이 있는지 타 게시판를 찾아보며 기능을 참고했습니다. 스스로 해결하는 방법을 터득함과 동시에 기술이 구현되었을 때 성취감을 느꼈다. 기능 구현을 하기 위해 로직을 정리하기 위한 수단으로 노트에 필기를 하여 생각 정리를 했는데, 많은 도움이 되었다.또한 실제로 개발을 해보면서 예상치 못했던 부분에 문제가 생겼을 때 팀원들과 원활한 소통으로 해결하는 방식을 배우게 되었다. 수업시간에 배운 내용을 더 깊이 구현할 수 있어서 유의미한 시간이었다. 
 
-<div align=left><h2>❗ 프로젝트 회고</h2></div>
-
-### ✨ Keep
-
-### 💔 Problem
