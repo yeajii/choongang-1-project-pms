@@ -56,15 +56,6 @@ Spring Boot + Mybatis
 **aop** : aop <br>
 **han** : handler <br>
 
-<div align=left><h2>💻 화면 구성</h2></div>
-
-<div align=center>
-    <img width="30%" height="200px" src=""/>
-    <img width="30%" height="200px" src=""/>
-    <div width="30%" height="200px"></div>
-</div>
-<hr>
-
 <div align=left><h2>💡 페이지 상세 </h2></div>
 
 ### 공지사항 게시판
