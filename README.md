@@ -9,8 +9,6 @@ Spring Boot + Mybatis
 
 <div align=left><h2>📚 STACK</h2></div>
 
-<div align=left><h3>📕 Environment</h3></div>
-
 <div>
   <img src="">
 </div>
