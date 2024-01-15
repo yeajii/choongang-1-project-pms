@@ -13,8 +13,7 @@ SNS으로 정보 공유할 때의 시간 지나면 곧바로 찾기 어려운 �
 
 <div align=left><h2>📃 ERD</h2></div>
 
-![](readme_img/pms_erd.png)
-
+![](readme_img/PMS_erd.png)
 
 <div align=left><h2>📽 개발 기간</h2></div>
 2023.10.10 - 2023.11.30
