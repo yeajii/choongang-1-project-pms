@@ -1,10 +1,22 @@
 <div align=left><h2>🚩PMS (Project Manager System)🚩</h2></div>
 Spring Boot + Mybatis
 
-<div align=left><h2>프로젝트 소개</h2></div>
-학원생들의 프로젝트 개념 및 관리 측면에서 더 나은 이해와 경험을 얻을 수 있는 사이트입니다.
+<div align=left><h2>🔔 프로젝트 소개</h2></div>
+SNS으로 정보 공유할 때의 시간 지나면 곧바로 찾기 어려운 점, <br>
+서로의 진행상황을 파악하는 데의 문제점, <br>
+위와 같은 프로젝트 진행 과정에서의 문제를 개선하기 위하여 프로젝트 개발 시 <br>
+표준이 되는 방법으로 개념 및 관리 측면에서 더 나은 이해와 경험을 얻을 수 있는 사이트를 개발하였습니다. 
 
-<div align=left><h2>개발 기간</h2></div>
+<div align=left><h2>📃 프로젝트 구조</h2></div>
+
+![](readme_img/pms_process.png)
+
+<div align=left><h2>📃 ERD</h2></div>
+
+![](readme_img/pms_erd.png)
+
+
+<div align=left><h2>📽 개발 기간</h2></div>
 2023.10.10 - 2023.11.30
 
 <div align=left><h2>📚 STACK</h2></div>
