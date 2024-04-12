@@ -9,6 +9,7 @@ version = 'VERSION1.0'
 
 java {
 	sourceCompatibility = '11'
+	targetCompatibility = '11'
 }
 
 configurations {
